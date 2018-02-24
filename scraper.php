@@ -41,6 +41,7 @@ for($page = 4796000;$page <5995000; $page++)
 	
       $link ='https://e.fbr.gov.pk/Registration/searchDetail.aspx?crup='.$page;
       $maincode = dlPage($link);
+      $maincode = dlPage($link);
 	if($maincode)
 	{
       sleep(4);
